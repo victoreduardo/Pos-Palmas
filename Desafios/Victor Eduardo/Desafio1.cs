@@ -57,7 +57,7 @@ namespace ConsoleApp
                             resposta += cki.KeyChar;
                             if (posicaoAtual < frase_padrao.ToCharArray().Count())
                                 Console.Write(frase_padrao[posicaoAtual]);
-                                posicaoAtual++;
+                            posicaoAtual++;
                         } else { 
                             dig_resposta = false;
                             qtdEnter++;
